@@ -1,72 +1,48 @@
-# Data-Visualization-Internship
-
+# Data Visualization Internship — Analytics Portfolio
 
 **Authors:** Tarun Sreekar Parasa (Sreekar-DS) & Saranya Pamarthi (Saranya-DA)
 
-This repository contains two end-to-end analytics projects completed during the **Data Visualization Early Internship** with Excelerate.
+This repository contains two end-to-end analytics projects completed during the **Excelerate Data Visualization Early Internship**. Together they demonstrate PostgreSQL data preparation, analytical SQL, BI reporting, Excel/Tableau analysis and business-facing recommendations.
 
-The internship focused on:
+## Projects
 
-- Data Cleaning & ETL using SQL
-- Exploratory Data Analysis
-- Business KPI Design
-- Dashboard Development using Tableau & Looker Studio
-- Marketing Campaign Performance Evaluation
+### 1. Excelerate Learners, Opportunities & Cohorts Analysis
 
----
+A large learning-analytics project that integrated learner, profile, cohort, opportunity and enrollment data in PostgreSQL and prepared a clean analytical model for BI reporting.
 
-## Projects Included
+**Highlights**
+- PostgreSQL ETL and data-quality analysis across six source datasets.
+- Final analytical extract: **184,782 rows × 42 columns** and **129,262 unique learners**.
+- CTEs, joins, conditional logic, null handling, date transformations and aggregations.
+- Cohort utilization, opportunity popularity, enrollment and learner-profile analysis.
+- Looker Studio reporting, with durable static results stored in the repository.
+- Raw learner data is intentionally excluded because the ~149 MB extract contains personal/profile fields.
 
-### 1️⃣ Excelerate Learners, Opportunities & Cohorts Analysis
-A full-scale analytical study of learner engagement, cohort structures, and opportunity performance across multiple relational tables.
+**Project:** [Excelerate Learners Opportunities Cohorts](./Excelerate%20Learners%20Opportunities%20Cohorts/)
 
-Tech Stack:
-- PostgreSQL
-- SQL (CTEs, Window Functions, Joins, Aggregations)
-- Looker Studio
-- Data Modeling
+**Legacy Looker Studio dashboard:** https://lookerstudio.google.com/reporting/13f5c772-7e14-476d-8521-dffab2d2360c
 
-🔗 Live Dashboard:  
-https://lookerstudio.google.com/reporting/13f5c772-7e14-476d-8521-dffab2d2360c
+### 2. Superhero U Event — Facebook Ads Campaign Analysis
 
----
+A marketing-performance case study evaluating **11 campaigns across 13 countries** to identify inefficient spend and support campaign-removal / budget-reallocation decisions.
 
-### 2️⃣ Facebook Ads Campaign Analysis – Superhero U Event
-A performance optimization study analyzing 11 paid marketing campaigns across 13 countries to identify inefficiencies and budget reallocation strategies.
+**Highlights**
+- Excel-based campaign analysis.
+- Tableau dashboard for campaign comparison.
+- Recommendation to remove/reallocate underperforming campaigns, with an estimated **~30% budget saving** in the internship scenario.
 
-Tech Stack:
-- Excel
-- Tableau
-- Campaign KPI Analysis
-- ROI Optimization
+**Project:** [Superhero U Event - Facebook Ads Campaign Analysis](./Superhero%20U%20Event%20-%20Facebook%20Ads%20Campaign%20Analysis/)
 
-🔗 Tableau Dashboard:  
-https://public.tableau.com/app/profile/tarun.sreekar.parasa3476/viz/DVT15Week-2Deliverable/CAMPAIGNWISETOTALREACH?publish=yes
+**Tableau Public:** https://public.tableau.com/app/profile/tarun.sreekar.parasa3476/viz/DVT15Week-2Deliverable/CAMPAIGNWISETOTALREACH?publish=yes
 
----
+## Skills demonstrated
 
-## 🎯 Key Outcomes
+**PostgreSQL · SQL · ETL · Data Cleaning · Data Quality · CTEs · Joins · Aggregations · Excel · Tableau · Looker Studio · KPI Design · Business Analysis · Data Visualization**
 
-- Designed relational ETL pipelines combining 6 source tables.
-- Built curated analytical datasets for BI consumption.
-- Identified enrollment bottlenecks linked to incomplete demographic data.
-- Recommended discontinuation of underperforming ad campaigns, saving ~30% marketing budget.
-- Delivered interactive dashboards used for decision-making simulations.
+## Data and reproducibility
 
----
+The small marketing workbook is included in the Superhero U project. The large learner-level dataset is not published because it contains personal/profile fields and is unnecessary for portfolio review. The learner project instead includes curated SQL, transformation documentation and privacy-safe aggregate results so the analytical work can still be inspected directly on GitHub.
 
-## 👥 Collaboration
+## Collaboration
 
-Initially part of a larger team, the internship team later narrowed to a focused collaboration between:
-
-- **Tarun Sreekar Parasa**
-- **Saranya Pamarthi**
-
-Both projects were executed jointly, including data preparation, analysis, and dashboard development.
-
----
-
-## 📌 Note
-
-SQL scripts and datasets are included in respective project folders for reproducibility.
-
+Both internship projects were completed collaboratively by **Tarun Sreekar Parasa** and **Saranya Pamarthi**.
